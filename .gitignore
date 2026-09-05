@@ -1,0 +1,30 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies
+node_modules/
+lib/
+
+# Build output and caches
+.next/
+dist/
+build/
+out/
+cache/
+artifacts/
+broadcast/
+coverage/
+.turbo/
+.vite/
+.parcel-cache/
+
+# Local tooling
+.vercel/
+.hardhat-tmp/
+npm-debug.log*

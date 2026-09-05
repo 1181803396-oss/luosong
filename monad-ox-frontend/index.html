@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>逃离工位｜静态预览</title>
+  <link rel="stylesheet" href="/app/globals.css" />
+  <style>
+    .preview-wallet{border:1px solid #ffd700;border-radius:9px;background:#ffd700;color:#111;padding:10px 15px;font-weight:900}.preview-note{position:fixed;z-index:30;right:16px;bottom:74px;padding:9px 12px;background:#201b0b;border:1px solid #ffd700;color:#ffd700;font-size:11px}.preview-card-button{width:100%;min-height:44px;border:0;background:linear-gradient(135deg,#ffd700,#ffa500);color:#111;font-weight:900}.preview-card-button:disabled{background:#222;color:#777;cursor:not-allowed}
+  </style>
+</head>
+<body>
+<main>
+  <nav class="nav-shell"><a class="logo" href="#top"><span class="logo-mark">逃</span><span>逃离工位<small>ESCAPE THE DESK</small></span></a><button class="preview-wallet">连接钱包</button></nav>
+  <div class="speed-banner">⚡ Monad 高速链：交易秒确认，Gas 费低至忽略不计</div>
+  <aside class="wallet-empty"><span>🧳</span><div><strong>连接钱包，开启第一次出逃</strong><p>解锁路线、链上打卡，把周末变成永久旅行徽章。</p></div><button class="preview-wallet">连接钱包</button></aside>
+  <section class="hero" id="top"><div class="eyebrow"><i></i> MONAD TESTNET · 城市出逃计划</div><h1>人生是<span>旷野</span><br>不是工位</h1><p>给周末一点链上仪式感。解锁平价路线，完成真实打卡，<br>把每一次出逃铸成独一无二的旅行徽章。</p><a class="hero-cta" href="#routes">开始逃离 <span>↓</span></a><div class="hero-number">03</div></section>
+  <section class="routes-section" id="routes">
+    <div class="section-heading"><div><span class="section-index">01 / ROUTES</span><h2>选择你的出逃路线</h2></div><p>从一天喘息，到奔赴旷野。<br>每一级，都是自由的刻度。</p></div>
+    <div class="filters"><div class="filter-group"><button class="active">全部</button><button>人文</button><button>风景</button></div><div class="filter-group"><button class="active">全部等级</button><button>L1</button><button>L2</button><button>L3</button></div></div>
+    <div class="route-grid" id="route-grid"></div>
+  </section>
+  <section class="how-it-works"><span class="section-index">02 / HOW IT WORKS</span><h2>三步，把周末还给自己</h2><div class="steps"><div><b>01</b><strong>连接钱包</strong><p>切换到 Monad Testnet，出逃身份即刻就绪。</p></div><div><b>02</b><strong>解锁路线</strong><p>从 0.001 MON 开始，穷游也有精致路线。</p></div><div><b>03</b><strong>打卡铸章</strong><p>完成旅程，收获积分与永久旅行 NFT。</p></div></div></section>
+  <footer class="stats-bar"><div><span>逃离积分</span><strong>0</strong></div><div><span>已解锁</span><strong>0<small> / 6</small></strong></div><div><span>NFT 徽章</span><strong>0<small> / 3</small></strong></div></footer>
+  <div class="preview-note">比赛交互演示模式 · 不会发送真实链上交易</div>
+</main>
+<script src="/app.js?v=4"></script>
+</body>
+</html>
